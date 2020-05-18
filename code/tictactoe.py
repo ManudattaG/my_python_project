@@ -14,6 +14,7 @@ Conditions:
 2. You cannot fill the position which has already been filled. System displays "Position has been marked already" message.
 """
 
+# Runtime : Python 3.6
 
 import os    
 import time    
