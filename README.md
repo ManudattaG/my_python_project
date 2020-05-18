@@ -17,7 +17,7 @@ This repository is for practicing, learning and developing my skills on Python c
 
 My contribution and learning towards Python programming language will always be updated here in my GitHub profile:
 ```
-https://github.com/ManudattaG/my_python_project.git
+[https://github.com/ManudattaG/my_python_project.git]
 ```
 
 ### NOTE : Any suggestions or issues related to the project are welcome. Please open an issue to discuss on the changes.
