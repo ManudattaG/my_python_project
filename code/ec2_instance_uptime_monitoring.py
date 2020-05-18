@@ -1,13 +1,12 @@
-import json
 import boto3
-from botocore.exceptions import ClientError
+import json
 import datetime
+from botocore.exceptions import ClientError
 
 ses_client = boto3.client('ses')
-ec2 = boto3.client('ec2')
 CHARSET = "UTF-8"
 
-def sendEmail(ec2_uptime):
+def sendEmail(email_body):
     try:
         response = ses_client.send_email(
             Destination={
@@ -20,7 +19,7 @@ def sendEmail(ec2_uptime):
                 'Body': {
                     'Text': {
                         'Charset': CHARSET,
-                        'Data': ec2_uptime,
+                        'Data': email_body,
                     }
                 },
                 'Subject': {
@@ -28,55 +27,37 @@ def sendEmail(ec2_uptime):
                     'Data': "Amazon EC2 instance uptime",
                 },
             },
-            Source=""you@example.com"",
+            Source="from@example.com",
     )
     except ClientError as e:
         print(e.response['Error']['Message'])
     else:
         print("Email sent! Message ID:"),
         print(response['MessageId'])
-
-def timeDiff(launch_time, current_time, InstanceId):
-    running_time = current_time - launch_time
-    running_time = running_time.seconds/60
-    ec2_uptime = "Instance : " + str(InstanceId) + " is running for " + str(running_time) + " mins"
-    print(ec2_uptime)
-    return(ec2_uptime)
-
+   
 def lambda_handler(event, context):
-    ## For getting ec2 instance uptime ##
-    
-    response = ec2.describe_instances()
-    print(response)
-    ##print(type(response))
-    Reservations = response.get('Reservations', None)
-    for i in Reservations:
-        Instances = i['Instances']
-        ##print(Instances)
-        for j in Instances:
-            InstanceId = j['InstanceId']
-            print(InstanceId)
-            LaunchTime = j['LaunchTime']
-            print(LaunchTime)
-            current_time = datetime.datetime.now(LaunchTime.tzinfo)
-            print(current_time)
-            ec2_uptime = timeDiff(LaunchTime, current_time, InstanceId)
-            sendEmail(ec2_uptime)
-    
-    ## ec2 instances older than 30 days ##
-    
-    old_date = datetime.datetime.now() + datetime.timedelta(days=-30)
-    print(old_date)
-    
+    # Date, thirty days before runtime (Specified in timedelta() function)
+    old_date = datetime.datetime.now() + datetime.timedelta(-30)
+    date_format = old_date.strftime("%Y-%m-%d")
+   
+    ec2 = boto3.client('ec2',region_name='region-tobe-specified')
+    # Print AMIs in from region owned by this account older than 30 days
     instances = ec2.describe_instances()
-    for reservation in instances["Reservations"]:
-        for instance in reservation["Instances"]:
-            LaunchTime = instance['LaunchTime']
-            print(LaunchTime)
-            LaunchTime = LaunchTime.replace(tzinfo=None)
-            if(LaunchTime < old_date):
-                print ("\t\tInstance ID: " + instance["InstanceId"])
-                print ("\t\tCreation time: " + str(LaunchTime))
-            else:
-                print("No instances are older than 30 days")
-            
+    response = ec2.describe_images(ExecutableUsers=['self'])
+    for images in response["Images"]:
+        if images["CreationDate"] < date_format:
+            old_AMI = (images["ImageId"])
+            # Print Instances launched by AMIs [older than 30 days]
+            for reservation in instances["Reservations"]:
+                for instance in reservation["Instances"]:
+                    if ((instance["ImageId"]) == old_AMI):
+                         tags = instance['Tags']
+                         for i in tags:
+                             key_name = i['Key']
+                             if "Name" in key_name:
+                                 instance_name = i['Value']
+                                 print ("\t\tInstance ID: " + instance["InstanceId"] + "\t\tAMI ID:" +old_AMI + "\t\tIP:" + instance["PrivateIpAddress"] + "\t\tInstance Name:" + instance_name)
+                                 email_body = "\t\tInstance ID: " + instance["InstanceId"] + "\t\tAMI ID:" +old_AMI + "\t\tIP:" + instance["PrivateIpAddress"] + "\t\tInstance Name:" + instance_name
+                         
+    # Send email function #
+    sendEmail(email_body)
