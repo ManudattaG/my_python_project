@@ -13,8 +13,8 @@ This repository is for practicing, learning and developing my skills on Python c
 
 * Python 3.x
 * Python IDE (IDLE, PyCharm, Spyder etc..)
-* Amazon Web Services
+* Amazon Web Services (Optional)
 
 My contribution and learning towards Python programming language will always be updated in my GitHub profile.
 
-## NOTE : Any suggestions or issues related to the project are welcome. Please open an issue to discuss on the changes.
+### NOTE : Any suggestions or issues related to the project are welcome. Please open an issue to discuss on the changes.
