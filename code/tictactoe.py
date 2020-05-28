@@ -1,6 +1,6 @@
 """
 Tic-Tac-Toe is game where two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. 
-The game is designed in such a way that the player enters a number between [1-9] and the game board will be displayed on screen. At the end of the game system will display the winner.
+The game is designed in such a way that the player enters a number between [1-9] (where 1 represents 1st space, 2 represents 2nd space and so on..) and the game board will be displayed on screen. At the end of the game system will display the winner.
 
 Game rules:
 1. Player 1 plays for [X] --- Player 2 plays for [O]
