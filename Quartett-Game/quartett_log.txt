@@ -1,0 +1,314 @@
+Anna: ['C-1', 'E-1', 'C-2', 'C-3', 'D-1']
+Bert: ['B-1', 'E-3', 'B-3', 'D-3', 'A-1']   
+Claudia: ['D-0', 'D-2', 'A-0', 'E-2', 'B-0']
+Dan: ['E-0', 'C-0', 'B-2', 'A-3', 'A-2']    
+It's Claudia's turn.
+There are 11 cards Claudia can ask for.     
+Claudia is asking Anna for D-1.
+Claudia gets D-1 from Anna.
+
+
+Anna: ['C-1', 'E-1', 'C-2', 'C-3']
+Bert: ['B-1', 'E-3', 'B-3', 'D-3', 'A-1']   
+Claudia: ['D-0', 'D-2', 'A-0', 'E-2', 'B-0', 'D-1']
+Dan: ['E-0', 'C-0', 'B-2', 'A-3', 'A-2']
+It's Claudia's turn.
+There are 10 cards Claudia can ask for.
+Claudia is asking Bert for D-3.
+Claudia gets D-3 from Bert.
+Claudia has a quartet!
+Claudia is putting down ['D-0', 'D-2', 'D-1', 'D-3']
+
+
+Anna: ['C-1', 'E-1', 'C-2', 'C-3']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1']
+Claudia: ['A-0', 'E-2', 'B-0']
+Dan: ['E-0', 'C-0', 'B-2', 'A-3', 'A-2']
+It's Claudia's turn.
+There are 9 cards Claudia can ask for.
+Claudia is asking Dan for A-2.
+Claudia gets A-2 from Dan.
+
+
+Anna: ['C-1', 'E-1', 'C-2', 'C-3']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'C-0', 'B-2', 'A-3']
+It's Claudia's turn.
+There are 8 cards Claudia can ask for.
+Claudia is asking Bert for A-3.
+Bert does not have A-3.
+It's now Bert's turn.
+
+
+Anna: ['C-1', 'E-1', 'C-2', 'C-3']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'C-0', 'B-2', 'A-3']
+It's Bert's turn.
+There are 8 cards Bert can ask for.
+Bert is asking Dan for B-2.
+Bert gets B-2 from Dan.
+
+
+Anna: ['C-1', 'E-1', 'C-2', 'C-3']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'C-0', 'A-3']
+It's Bert's turn.
+There are 7 cards Bert can ask for.
+Bert is asking Anna for B-0.
+Anna does not have B-0.
+It's now Anna's turn.
+
+
+Anna: ['C-1', 'E-1', 'C-2', 'C-3']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'C-0', 'A-3']
+It's Anna's turn.
+There are 4 cards Anna can ask for.
+Anna is asking Dan for C-0.
+Anna gets C-0 from Dan.
+Anna has a quartet!
+Anna is putting down ['C-1', 'C-2', 'C-3', 'C-0']
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3']
+It's Anna's turn.
+There are 3 cards Anna can ask for.
+Anna is asking Bert for E-0.
+Bert does not have E-0.
+It's now Bert's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3']
+It's Bert's turn.
+There are 7 cards Bert can ask for.
+Bert is asking Dan for B-0.
+Dan does not have B-0.
+It's now Dan's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3']
+It's Dan's turn.
+There are 6 cards Dan can ask for.
+Dan is asking Bert for E-2.
+Bert does not have E-2.
+It's now Bert's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3']
+It's Bert's turn.
+There are 7 cards Bert can ask for.
+Bert is asking Dan for B-0.
+Dan does not have B-0.
+It's now Dan's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'E-2', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3']
+It's Dan's turn.
+There are 6 cards Dan can ask for.
+Dan is asking Claudia for E-2.
+Dan gets E-2 from Claudia.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2']
+It's Dan's turn.
+There are 5 cards Dan can ask for.
+Dan is asking Claudia for E-3.
+Claudia does not have E-3.
+It's now Claudia's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2']
+It's Claudia's turn.
+There are 5 cards Claudia can ask for.
+Claudia is asking Anna for A-1.
+Anna does not have A-1.
+It's now Anna's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2']
+It's Anna's turn.
+There are 3 cards Anna can ask for.
+Anna is asking Dan for E-3.
+Dan does not have E-3.
+It's now Dan's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2']
+It's Dan's turn.
+There are 5 cards Dan can ask for.
+Dan is asking Bert for E-1.
+Bert does not have E-1.
+It's now Bert's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2']
+It's Bert's turn.
+There are 7 cards Bert can ask for.
+Bert is asking Dan for B-0.
+Dan does not have B-0.
+It's now Dan's turn.
+
+
+Anna: ['E-1']
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2']
+It's Dan's turn.
+There are 5 cards Dan can ask for.
+Dan is asking Anna for E-1.
+Dan gets E-1 from Anna.
+
+
+Anna: []
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2', 'E-1']
+It's Dan's turn.
+There are 4 cards Dan can ask for.
+Dan is asking Claudia for E-3.
+Claudia does not have E-3.
+It's now Claudia's turn.
+
+
+Anna: []
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2', 'E-1']
+It's Claudia's turn.
+There are 5 cards Claudia can ask for.
+Claudia is asking Dan for A-1.
+Dan does not have A-1.
+It's now Dan's turn.
+
+
+Anna: []
+Bert: ['B-1', 'E-3', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['E-0', 'A-3', 'E-2', 'E-1']
+It's Dan's turn.
+There are 4 cards Dan can ask for.
+Dan is asking Bert for E-3.
+Dan gets E-3 from Bert.
+Dan has a quartet!
+Dan is putting down ['E-0', 'E-2', 'E-1', 'E-3']
+
+
+Anna: []
+Bert: ['B-1', 'B-3', 'A-1', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['A-3']
+It's Dan's turn.
+There are 3 cards Dan can ask for.
+Dan is asking Bert for A-1.
+Dan gets A-1 from Bert.
+
+
+Anna: []
+Bert: ['B-1', 'B-3', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['A-3', 'A-1']
+It's Dan's turn.
+There are 2 cards Dan can ask for.
+Dan is asking Bert for A-2.
+Bert does not have A-2.
+It's now Bert's turn.
+
+
+Anna: []
+Bert: ['B-1', 'B-3', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['A-3', 'A-1']
+It's Bert's turn.
+There are 1 cards Bert can ask for.
+Bert is asking Dan for B-0.
+Dan does not have B-0.
+It's now Dan's turn.
+
+
+Anna: []
+Bert: ['B-1', 'B-3', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['A-3', 'A-1']
+It's Dan's turn.
+There are 2 cards Dan can ask for.
+Dan is asking Bert for A-2.
+Bert does not have A-2.
+It's now Bert's turn.
+
+
+Anna: []
+Bert: ['B-1', 'B-3', 'B-2']
+Claudia: ['A-0', 'B-0', 'A-2']
+Dan: ['A-3', 'A-1']
+It's Bert's turn.
+There are 1 cards Bert can ask for.
+Bert is asking Claudia for B-0.
+Bert gets B-0 from Claudia.
+Bert has a quartet!
+Bert is putting down ['B-1', 'B-3', 'B-2', 'B-0']
+
+
+Anna: []
+Bert: []
+Claudia: ['A-0', 'A-2']
+Dan: ['A-3', 'A-1']
+Bert is out of cards!
+It's Dan's turn.
+There are 2 cards Dan can ask for.
+Dan is asking Claudia for A-2.
+Dan gets A-2 from Claudia.
+
+
+Anna: []
+Bert: []
+Claudia: ['A-0']
+Dan: ['A-3', 'A-1', 'A-2']
+It's Dan's turn.
+There are 1 cards Dan can ask for.
+Dan is asking Claudia for A-0.
+Dan gets A-0 from Claudia.
+Dan has a quartet!
+Dan is putting down ['A-3', 'A-1', 'A-2', 'A-0']
+Dan is out of cards!
+All players out of cards - game is over!
+
+
+Anna has 1 quartets
+Bert has 1 quartets
+Claudia has 1 quartets
+Dan has 2 quartets
+Dan is the Winner!!!!!!
