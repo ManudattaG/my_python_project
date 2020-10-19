@@ -1,4 +1,4 @@
-# Python
+# My Python and AWS Projects
 
 This repository is for practicing, learning and developing my skills on Python coding. Few of the projects which I have developed using Python and AWS are --
 
