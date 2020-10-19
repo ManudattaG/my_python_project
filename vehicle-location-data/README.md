@@ -2,21 +2,6 @@
 
 https://vehicle-simulator.herokuapp.com/
 
-Problem Statement:
-------------------------------------------------------------------------------------
-door2door is analysing and visualising mobility data to find the optimal solution to improve public transportation in cities and rural areas, and working on finding the most efficient solutions to stakeholder's problems. One of the ways the team evaluates a potential Ridepooling service is by simulating said service. The mission is to integrate it in a solution that enables users to trigger a simulation and see its results visualized in some way accessible through a webpage.
-
-
-Approach:
-------------------------------------------------------------------------------------
-
-* Analysis of Simulator module
-* Creating an API/wrapper around the Simulator module
-* Get the results by triggering the API
-* Transformation and mapping the data
-* Render the map by plotting the location coordinates for each mobility data
-* Visualize the cluster on a map on click of a button
-
 
 Tech Stack:
 ------------------------------------------------------------------------------------
@@ -26,7 +11,7 @@ Tech Stack:
 3. Heroku
 
 
-Overview of "d2d-vehicle-simulator" Workflow:
+Overview of the project workflow:
 ------------------------------------------------------------------------------------
 
 1. Create Flask API (GET)
@@ -43,10 +28,10 @@ Project Structure:
 --------------------------------------------------------------------------------------
 
 1. app.py -- _An API/wrapper function for the Simulator module_
-2. simulator.py -- _Provides a class Simulator that returns some mock simulation results_
+2. simulator.py -- _Provides a class Simulator that returns some mock vehicle location details_
 3. templates/index.html -- _An html page for the visualizing simulation results on a map_
 4. templates/visual_map.html -- _A rendered html page after plotting location coordinates on a map_
-5. berlin_stops.geojson -- _A geojson file which contains dropoff and pickup points data_
+5. berlin_stops.geojson -- _A geojson file which contains vehicle location details_
 6. Procfile -- _A file which is used to run a web app deployed on Heroku_
 7. requirements.txt -- _Dependency libraries for the project_
 8. runtime.txt -- _A file which contains runtime version on which the app is running_
@@ -75,7 +60,7 @@ Libraries Used:
 Solution:
 ---------------------------------------------------------------------------------------
 
-Visualize the simulation results on a map (in any browser) by clicking the below web URL.
+Visualize the location data on a map (in any browser) by clicking the below web URL.
 
 URL --> https://vehicle-simulator.herokuapp.com/
 
