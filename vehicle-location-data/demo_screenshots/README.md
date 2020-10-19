@@ -1,11 +1,11 @@
 # Main Page #
 
-![ScreenShot](/demo_screenshots/landing_page.jpg?raw=true)
+![ScreenShot](/vehicle-location-data/demo_screenshots/landing_page.jpg)
 
 # Map Cluster #
 
-![ScreenShot](/demo_screenshots/cluster_map.jpg?raw=true)
+![ScreenShot](/vehicle-location-data/demo_screenshots/cluster_map.jpg)
 
 # Marker Location #
 
-![ScreenShot](/demo_screenshots/marker_location.jpg?raw=true)
+![ScreenShot](/vehicle-location-data/demo_screenshots/marker_location.jpg)
