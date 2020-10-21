@@ -6,9 +6,10 @@ This repository is for practicing, learning and developing my skills on Python c
 * vehicle-location-data --> Visualize vehicle location on Map based on location coordinates
 * Quartett-Game --> A game of 20 cards and 4 players
 * code/Tic-Tac-Toe Game --> A game of [X] [O] [X] [O]
-
-Few other implementations on Python Data structures, automating the boring stuffs in Python, AWS utility codes using boto3 SDK and Python --> [here](my_python_project/code/)
 ```
+
+Few other implementations on Python Data structures, Collections and Types, automating the boring stuffs in Python, AWS utility codes using boto3 SDK and Python --> [here](my_python_project/code/)
+
 
 ## Pre requisites:
 
@@ -26,8 +27,9 @@ My contribution and learning towards AWS and Python programming language will be
 ### NOTE : Any suggestions or issues related to the project are welcome. Please open an issue to discuss on the changes.
 
 
-**version v1.0**
 
-**date - 25 January 2020**
+**Version - 1.0**
+
+**Date - 25 January 2020**
 
 **Author**:  Manudatta G (Senior Software Engineer)
