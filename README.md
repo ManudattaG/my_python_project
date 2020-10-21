@@ -21,7 +21,7 @@ Few other implementations on Python Data structures, Collections and Types, auto
 * Heroku (Optional)
 
 My contribution and learning towards AWS and Python programming language will be updated here in my GitHub profile:
-[link] (https://github.com/ManudattaG/my_python_project)
+[link](https://github.com/ManudattaG/my_python_project)
 
 
 ## NOTE : Any suggestions or issues related to the project are welcome. Please open an issue to discuss on the changes.
