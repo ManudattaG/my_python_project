@@ -69,9 +69,9 @@ Authenticating using JWT token:
 
 PyGrid supports authentication via JWT token (HMAC, RSA) or opaque token via remote API to protect the model for different workers.
 
-![Alt text](/model_centric_FL_tool/auth/auth_token.png?raw=true "auth_token")
+![Alt text](/model_centric_FL_tool/auth/auth_token.PNG?raw=true "auth_token")
 
-![Alt text](/model_centric_FL_tool/auth/fl_client.png?raw=true "fl_client")
+![Alt text](/model_centric_FL_tool/auth/fl_client.PNG?raw=true "fl_client")
 
 
 
@@ -82,7 +82,7 @@ Implementation:
 
 ![Alt text](/model_centric_FL_tool/code_snippets/import_libraries.png?raw=true "import_libraries")
 
-![Alt text](/model_centric_FL_tool/code_snippets/define_model.png?raw=true "define_model")
+![Alt text](/model_centric_FL_tool/code_snippets/define_model.PNG?raw=true "define_model")
 
 
 2. Connect to the hospital's data cluster node
@@ -92,12 +92,12 @@ Implementation:
 
 3. Manage access rules and permissions
 
-![Alt text](/model_centric_FL_tool/code_snippets/access_permissions.png?raw=true "access_permissions")
+![Alt text](/model_centric_FL_tool/code_snippets/access_permissions.PNG?raw=true "access_permissions")
 
 
 4. Prepare the tensor data to train and publish
 
-![Alt text](/model_centric_FL_tool/code_snippets/tensor_data.png?raw=true "tensor_data")
+![Alt text](/model_centric_FL_tool/code_snippets/tensor_data.PNG?raw=true "tensor_data")
 
 
 5. Create a training plan procedure
@@ -107,14 +107,14 @@ Implementation:
 
 6. Train the model
 
-![Alt text](/model_centric_FL_tool/code_snippets/train_model.png?raw=true "train_model")
+![Alt text](/model_centric_FL_tool/code_snippets/train_model.PNG?raw=true "train_model")
 
-![Alt text](/model_centric_FL_tool/code_snippets/train_model_epoch.png?raw=true "train_model_epoch")
+![Alt text](/model_centric_FL_tool/code_snippets/train_model_epoch.PNG?raw=true "train_model_epoch")
 
 
 7. Perform the computations and publish the private datasets on this node
 
-![Alt text](/model_centric_FL_tool/code_snippets/publish_data.png?raw=true "publish_data")
+![Alt text](/model_centric_FL_tool/code_snippets/publish_data.PNG?raw=true "publish_data")
 
 
 8. As a data owner, manage node's accounts to identify and control who can access the node
