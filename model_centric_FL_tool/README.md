@@ -82,7 +82,7 @@ Implementation:
 
 ![Alt text](/model_centric_FL_tool/code_snippets/import_libraries.png?raw=true "import_libraries")
 
-![Alt text](/model_centric_FL_tool/code_snippets/define_model.PNG?raw=true "define_model")
+![Alt text](/model_centric_FL_tool/code_snippets/define_model.jpg?raw=true "define_model")
 
 
 2. Connect to the hospital's data cluster node
@@ -102,12 +102,12 @@ Implementation:
 
 5. Create a training plan procedure
 
-![Alt text](/model_centric_FL_tool/code_snippets/training_plan.png?raw=true "training_plan")
+![Alt text](/model_centric_FL_tool/code_snippets/training_plan.jpg?raw=true "training_plan")
 
 
 6. Train the model
 
-![Alt text](/model_centric_FL_tool/code_snippets/train_model.PNG?raw=true "train_model")
+![Alt text](/model_centric_FL_tool/code_snippets/train_model.jpg?raw=true "train_model")
 
 ![Alt text](/model_centric_FL_tool/code_snippets/train_model_epoch.PNG?raw=true "train_model_epoch")
 
