@@ -1,6 +1,6 @@
 # Get active clients list #
 
-![ScreenShot](/src/demo_screenshots/active_client_list.jpg)
+![Alt text](/src/demo_screenshots/active_client_list.jpg?raw=true "active_client")
 
 # Create new client #
 
