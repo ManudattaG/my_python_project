@@ -1,0 +1,5 @@
+Flask==1.1.1
+flask_restful
+flask_jwt_extended
+flask-sqlalchemy
+SQLAlchemy==1.3.8
