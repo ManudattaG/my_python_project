@@ -1,6 +1,6 @@
 # Get active clients list #
 
-![Alt text](/src/demo_screenshots/active_client_list.jpg?raw=true "active_client")
+![ScreenShot](https://github.com/ManudattaG/my_python_project/blob/master/client_administration_app/src/demo_screenshots/active_client_list.jpg)
 
 # Create new client #
 
