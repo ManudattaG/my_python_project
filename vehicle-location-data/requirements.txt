@@ -1,6 +1,6 @@
 flask
 geopandas
 shapely
-Werkzeug==0.15.5
+Werkzeug==2.2.3
 gunicorn
 folium
